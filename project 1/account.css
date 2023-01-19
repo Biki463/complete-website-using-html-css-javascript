@@ -1,0 +1,49 @@
+body {
+    padding: 102px 75px;
+    margin: 3px 40px;
+    color: rgb(255, 0, 162);
+    background-color: aqua;
+    
+}
+
+.formdesign {
+    font-size: 25px;
+    font-style:italic;
+    color: black;
+    align-tracks: 34px;
+
+}
+
+.formdesign input {
+    align-self: 20px;
+    width: 20%;
+    padding: 5px 20px;
+    border: 1px solid blue;
+    margin: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    align-self: 20px;
+
+}
+
+.formerror {
+    color: rgb(59, 32, 32);
+    
+}
+
+.but {
+    border-radius: 100px;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+
+    color: chocolate;
+    
+}
+.header{
+    color: darkblue;
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    background-color: brown;
+}

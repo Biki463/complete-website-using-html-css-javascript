@@ -1,0 +1,60 @@
+body {
+    padding: 102px 75px;
+    margin: 3px 40px;
+    color: rgb(255, 0, 162);
+    background-image: url(https://images.unsplash.com/photo-1605439937426-0052869c9a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Bhc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+.formdesign {
+    font-size: 30px;
+    font-style:italic;
+    color: rgb(18, 241, 133);
+    align-tracks: 34px;
+
+}
+
+.formdesigninput {
+    align-self: 20px;
+    width: 30%;
+    border: 3px solid rgb(45, 42, 44);
+    margin: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    align-self: 20px;
+    text-decoration: 60px;
+    text-size-adjust:50% ;
+height: 30px;
+}
+
+
+    
+
+
+.but {
+    border-radius: 100px;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    padding: 1px 30px;
+    color: chocolate;
+    
+}
+.header{
+    color: darkblue;
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    background-color: brown;
+}
+.ghost{
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    color: aqua;
+    
+}

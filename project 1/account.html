@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hacker form</title>
+    <link rel="stylesheet" href="account.css">
+    <script src="account.js"></script>
+
+</head>
+
+<body>
+    <h1>WELCOME TO THE HACKER WORLD!</h1>
+    <hr>
+    <br>
+    <br><input class="header" type="create your hacker ID account" value="create your hacker ID account"></h3>
+    <hr><br><br>
+    <h4>*****BEST HACKER OF THE COUNTRY*****</h4>
+
+    <form class="login" action="http://10.10.58.104:5500/project%201/project2.html" name="myForm" onsubmit="return validateForm()" method="post" target="_blank">
+        <div class="formdesign" id="fname" >
+            firstName:<input type="text" name="fname"required><b><span class="formerror"></span></b>
+            last Name:<input type="text" name="fname"required><b><span class="formerror"> </span></b>
+
+        </div>
+
+
+        <div class="formdesign" id="email">
+            Email:<input type="email" name="femail" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="phone">
+            Phone:<input type="phone" name="fphone"><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="pass">
+            Password:<input type="password" name="fpass"><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="cpass">
+            Confirm Password:<input type="password" name="fcpass"><b><span class="formerror"></span></b>
+        </div>
+
+        <button type="submit" class=but onclick="redirect()" target="_blank">submit</button>
+
+    </form>
+    <script>
+        function redirect() {
+    var interval = setInterval(myURL, 5000);
+     var result = document.getElementById("result");
+     result.innerHTML = "B";
+     }
+
+
+
+function myURL() {
+    window.location.href = "./project2.html";
+    clearInterval(interval);
+}
+    </script>
+</body>
+
+</html>
